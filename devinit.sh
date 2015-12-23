@@ -19,10 +19,10 @@ devinit () {
 
   if [ "$1" = "app" ]
   then
-    wget https://github.com/yh0r1e/dotfiles/blob/master/.editorconfig -nv
-    wget https://github.com/yh0r1e/dotfiles/blob/master/.eslintrc -nv
-    wget https://github.com/yh0r1e/dotfiles/blob/master/.htmlhintrc -nv
-    wget https://github.com/yh0r1e/dotfiles/blob/master/.textlintrc -nv
+    wget https://raw.githubusercontent.com/yh0r1e/dotfiles/master/.editorconfig -nv
+    wget https://raw.githubusercontent.com/yh0r1e/dotfiles/master/.eslintrc -nv
+    wget https://raw.githubusercontent.com/yh0r1e/dotfiles/master/.htmlhintrc -nv
+    wget https://raw.githubusercontent.com/yh0r1e/dotfiles/master/.textlintrc -nv
     echo "app devenv created"
     return
   fi

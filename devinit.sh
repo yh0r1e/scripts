@@ -21,8 +21,8 @@ devinit () {
   then
     wget https://raw.githubusercontent.com/yhor1e/dotfiles/master/.editorconfig -nv
     wget https://raw.githubusercontent.com/yhor1e/dotfiles/master/.eslintrc.json -nv
-    wget https://raw.githubusercontent.com/yhor1e/dotfiles/master/.htmlhintrc -nv
     wget https://raw.githubusercontent.com/yhor1e/dotfiles/master/.stylelintrc -nv
+    wget https://raw.githubusercontent.com/yhor1e/dotfiles/master/.prettierrc -nv
     echo "app devenv created"
     return
   fi

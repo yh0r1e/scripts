@@ -36,6 +36,7 @@ devinit () {
     wget https://raw.githubusercontent.com/yhor1e/minimal-react-webpack/master/index.html -nv
     wget -P src https://raw.githubusercontent.com/yhor1e/minimal-react-webpack/master/src/index.js -nv
     wget -P src https://raw.githubusercontent.com/yhor1e/minimal-react-webpack/master/src/App.js -nv
+    wget -P src https://raw.githubusercontent.com/yhor1e/minimal-react-webpack/master/src/style.css -nv
     git add .
     echo "app devenv created"
     return
